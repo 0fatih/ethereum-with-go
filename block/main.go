@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	client, err := ethclient.Dial("https://mainnet.infura.io/v3/cf0e3418fb49483ea007fa174d2f553e")
+	client, err := ethclient.Dial("https://mainnet.infura.io/v3/YOUR_PROJECT_ID")
 	if err != nil {
 		log.Fatal(err)
 	}
