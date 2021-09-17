@@ -22,7 +22,7 @@ var balances = []Balance{}
 func FetchBalances(target string) {
 	var wg sync.WaitGroup
 
-	client, err := ethclient.Dial("https://mainnet.infura.io/v3/bbc25118f46944c69b6980a12a299d3f")
+	client, err := ethclient.Dial("https://mainnet.infura.io/v3/YOUR_PROJECT_ID")
 	if err != nil {
 		log.Fatal(err)
 	}
